@@ -4,8 +4,7 @@ This is a custom implementation of the Array flat function.
 **argument:** Any vaule.
 
 - If the argument is an array, the function will flat the array no matter how many arrays there are inside the initial array.
-- If the argument is null or undefined the function will return null or undefined in each case.
-- If the argument is not an array nor null nor undefined, then the function will return the value as an array.
+- If the argument is not an array, then the function will return the value as an array, no matter if value is null or undefined.
 
 ### How to test
 1. Clone this repository
