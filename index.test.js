@@ -33,4 +33,9 @@ describe('Flat function', () => {
     const control = [null];
     expect(flat(control)).toEqual(control);
   });
+  test('flat([[[[null]]]]) should return [null]', () => {
+    const control = [null];
+    const input = [[[[null]]]];
+    expect(flat(input)).toEqual(control);
+  });
 });
