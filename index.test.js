@@ -29,4 +29,8 @@ describe('Flat function', () => {
   test('flat(null) should return null', () => {
     expect(flat(null)).toEqual(null);
   });
+  test('flat([null]) should return [null]', () => {
+    const control = [null];
+    expect(flat(control)).toEqual(control);
+  });
 });
