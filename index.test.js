@@ -1,6 +1,6 @@
 const flat = require('./index.js');
 
-describe('Flat function', () => {
+describe('Custom flat function', () => {
   test('flat([]) should return []', () => {
     expect(flat([])).toEqual([]);
   });
