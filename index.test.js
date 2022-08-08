@@ -23,4 +23,10 @@ describe('Flat function', () => {
     const input = [[[[]]]];
     expect(flat(input)).toEqual(control);
   });
+  test('flat() should return undefined', () => {
+    expect(flat()).toEqual(undefined);
+  });
+  test('flat(null) should return null', () => {
+    expect(flat(null)).toEqual(null);
+  });
 });
