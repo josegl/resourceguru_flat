@@ -38,4 +38,9 @@ describe('Custom flat function', () => {
     const input = [[[[null]]]];
     expect(flat(input)).toEqual(control);
   });
+  test('Assigment input: flat([1,[2,[3]],4]) should return [1,2,3,4]', () => {
+    const control = [1,2,3,4];
+    const input = [1,[2,[3]],4];
+    expect(flat(input)).toEqual(control);
+  });
 });
