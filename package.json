@@ -1,0 +1,22 @@
+{
+  "name": "resourceguru_flat",
+  "version": "1.0.0",
+  "description": "Custom array flat implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josegl/resourceguru_flat.git"
+  },
+  "author": "Jose García Lozano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josegl/resourceguru_flat/issues"
+  },
+  "homepage": "https://github.com/josegl/resourceguru_flat#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
